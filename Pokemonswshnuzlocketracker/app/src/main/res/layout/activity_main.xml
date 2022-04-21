@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/radioButton14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/slumbering_weald"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginStart="25dp" />
+
+            <RadioButton
+                android:id="@+id/radioButton15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/route_01"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginStart="25dp" />
+
+            <RadioButton
+                android:id="@+id/radioButton16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/route_02"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginStart="25dp" />
+
+            <RadioButton
+                android:id="@+id/radioButton17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/motostoke"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginStart="25dp" />
+
+            <RadioButton
+                android:id="@+id/radioButton18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/route_03"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginStart="25dp" />
+
+            <RadioButton
+                android:id="@+id/radioButton19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/galar_mine_no_1"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginStart="25dp" />
+
+            <RadioButton
+                android:id="@+id/radioButton20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/route_04"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginStart="25dp" />
+
+            <RadioButton
+                android:id="@+id/radioButton21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/route_05"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginStart="25dp" />
+
+            <RadioButton
+                android:id="@+id/radioButton22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hulbury"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginStart="25dp" />
+
+            <RadioButton
+                android:id="@+id/radioButton13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/galar_mine_no_2"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginStart="25dp" />
+
+            <RadioButton
+                android:id="@+id/radioButton12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/motostoke_outskirts"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginStart="25dp" />
+
+            <RadioButton
+                android:id="@+id/radioButton11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/route_06"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginStart="25dp" />
+
+            <RadioButton
+                android:id="@+id/radioButton10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/glimwood_tangle"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginStart="25dp" />
+
+            <RadioButton
+                android:id="@+id/radioButton9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/route_07"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginStart="25dp" />
+
+            <RadioButton
+                android:id="@+id/radioButton8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/route_08"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginStart="25dp" />
+
+            <RadioButton
+                android:id="@+id/radioButton7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/route_09"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginStart="25dp" />
+
+            <RadioButton
+                android:id="@+id/radioButton6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/route_10"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginStart="25dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
